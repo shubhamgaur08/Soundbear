@@ -15,7 +15,7 @@ let songs=[
     {songsName: "Apna Bana Le", filePath:"songs/5.mp3", coverPath:"covers/cover5.jpg"},
     {songsName: "Rasiya", filePath:"songs/6.mp3", coverPath:"covers/cover6.jpg"},
     {songsName: "Haaniya Ve", filePath:"songs/7.mp3", coverPath:"covers/cover7.jpg"},
-    {songsName: "Tujhse Pyaar Karta Hoon", filePath:"songs/8.mp3", coverPath:"covers/cover8.jpg"},
+    {songsName: "Tujhse Pyaar Karta", filePath:"songs/8.mp3", coverPath:"covers/cover8.jpg"},
     {songsName: "Ghodey Pe Sawaar", filePath:"songs/9.mp3", coverPath:"covers/cover9.jpg"},
     {songsName: "Sukoon the gazals", filePath:"songs/10.mp3", coverPath:"covers/cover10.jpg"},
 ]
