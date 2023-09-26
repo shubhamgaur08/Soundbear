@@ -46,7 +46,7 @@ nav ul li{
     width: 75%;
     border-radius: 40px;
     padding: 15px;
-    background-image: url('bg (2).jpg');
+    background-image: url('bg.jpg');
     /* background-position: center; */
     /* object-fit: contain; */
     background-size:cover;
@@ -62,8 +62,7 @@ nav ul li{
     align-items: center;
     color:#1f2833;
     flex-direction: column;
-   margin-bottom: 0%;
-   padding-bottom: 0%;
+  
 
 
 }
