@@ -6,18 +6,20 @@
 /* }#5cdb95 */
 body{
     background-color:black;
+    
 }
 nav ul{
     display: flex;
     align-items:center;
     list-style-type: none;
+    justify-content: center;
     height: 8vh;
-    background-color:#eb6b40;
+    background-color:#01f703;
     color: #1f2833;
     font-weight: bolder;
     font-size: 1.3rem;
     
-   
+
 }
 nav {
    font-family: 'Ubuntu',sans-sarif;
@@ -26,15 +28,20 @@ nav ul li{
     padding: 0 13px;
 }
 .brand img{
-    width: 130px;
+    width: 145px;
     padding: 0 8px;
+    border-radius: 20px;
+    
+
     
 }
 .brand{
     display:flex;
     align-items:center;
+    justify-content: center;
     font-weight: bolder;
     font-size: 1.3rem;
+    height: 90vh;
 }
 .container{
     min-height: 70vh;
@@ -43,7 +50,7 @@ nav ul li{
     font-family:'Varela', sans-serif;
     display: flex;
     margin: 15px auto;
-    width: 75%;
+    width: 75vw;
     border-radius: 40px;
     padding: 15px;
     background-image: url('bg.jpg');
@@ -52,17 +59,27 @@ nav ul li{
     background-size:cover;
   
 }
+.bottom-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+}
 .bottom{
-    position:sticky;
-    height: 17vh;
-    background-color:#eb6b40;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
     bottom: 0;
+    width: 85vw;
+    border-radius: 15px;
+    
+    background-color:#eb6b40;
+    
     display: flex;
     justify-content: center;
     align-items: center;
     color:#1f2833;
     flex-direction: column;
-  
 
 
 }
@@ -106,7 +123,7 @@ border-radius: 34px;
 }
 .gif{
     position:absolute;
-    left:15vw;
+    left:5vw;
     margin-top:3px;
     opacity: 0;
     transition: opacity ease-in;
